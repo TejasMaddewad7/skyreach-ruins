@@ -37,6 +37,17 @@
     </section>
   </main>
 
+  <script>
+    // The game physics use a bottom-left origin (positive Y is up), while
+    // canvas uses a top-left origin. Flip the drawing coordinate system so
+    // platforms, players, and hazards appear where the physics places them.
+    const gameCanvas = document.getElementById("game");
+    const gameContext = gameCanvas.getContext("2d");
+    if (gameContext) {
+      gameContext.translate(0, gameCanvas.height);
+      gameContext.scale(1, -1);
+    }
+  </script>
   <script src="game.js"></script>
 </body>
 </html>
