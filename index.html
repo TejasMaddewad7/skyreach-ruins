@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101a35">
+  <title>Skyreach Ruins — Co-op Parkour</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="page">
+    <header class="masthead">
+      <div class="eyebrow">A TWO-PLAYER CO-OP ADVENTURE</div>
+      <h1>Skyreach <span>Ruins</span></h1>
+      <p>Work together, brave the ruins, and find your way to the summit.</p>
+    </header>
+
+    <section class="game-shell" aria-label="Skyreach Ruins game">
+      <div class="game-topline">
+        <span>EMBER <kbd>W A S D</kbd></span>
+        <span class="level-label" id="level-label">LEVEL 1 · BROKEN STEPS</span>
+        <span>GALE <kbd>ARROWS</kbd></span>
+      </div>
+      <canvas id="game" width="800" height="600"
+              aria-label="Two-player platform game"></canvas>
+      <div class="game-foot">
+        <span>R · Restart</span>
+        <span>ENTER · Continue</span>
+        <span>ESC · Pause</span>
+      </div>
+    </section>
+
+    <section class="howto">
+      <div><b>Jump & climb</b><span>W / ↑ jumps. On ladders, use W/S or ↑/↓.</span></div>
+      <div><b>Team up</b><span>Stand on coloured plates to open doors or bridges.</span></div>
+      <div><b>Escape together</b><span>Collect treasure and get both players to the exit.</span></div>
+    </section>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>
