@@ -6,8 +6,8 @@ const W = 800;
 const H = 600;
 
 const GRAVITY = 0.6;
-const JUMP = 11;
-const SPEED = 4;
+const JUMP = 8;
+const SPEED = 2;
 const CLIMB = 2.5;
 const MAX_FALL = 14;
 
