@@ -5,7 +5,7 @@ const ctx = canvas.getContext("2d");
 const W = 800;
 const H = 600;
 
-const GRAVITY = 0.6;
+const GRAVITY = 0.3;
 const JUMP = 8;
 const SPEED = 2;
 const CLIMB = 2.5;
